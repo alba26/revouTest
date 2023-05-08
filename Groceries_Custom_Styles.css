@@ -1,0 +1,20 @@
+.main_content {
+    display: flex;
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.left-section {
+    width: 50%;
+}
+
+.right-section {
+    width: 50%;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    border-radius: 4px;
+}
