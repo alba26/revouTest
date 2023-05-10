@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="Groceries_Styles.css">
+  <link rel="stylesheet" href="Groceries_Custom_Styles.css">
+  <title>Revou Demo</title>
+</head>
+
+<body>
+  <div class="navigation">
+    <nav>
+      <ul class="nav">
+        <li><a href="#navigation">Home</a></li>
+        <li><a href="#section-2">Section 2</a></li>
+        <li><a href="#section-3">Section 3</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="header">
+    <h1 id="titleLabel" class="title">Revou Demo</h1>
+    <h3>World Class Engineer</h3>
+  </div>
+  <div class="main_content">
+    <div class="left-section">
+      <h3 id="fnameOutput"> </h3> 
+      <h3 id="lnameOutput"> </h3> 
+      <h3 id="ageOutput"> </h3> 
+    </div>
+    <div class="right-section">
+      <div class="container">
+        <form>
+          <label for="fnameInput">First name:</label>
+          <input type="text" id="fnameInput" name="fnameInput" placeholder="First Name"><br><br>
+          <label for="lnameInput">Last name:</label>
+          <input type="text" id="lnameInput" name="lnameInput" placeholder="Last Name"><br><br>
+          <label for="ageInput">Age</label>
+          <input type="number" id="ageInput" name="ageInput" placeholder="Age"><br><br>
+          <button type="submit" id="submitButton"> Submit Data </button>
+            <label for="lang">Language</label>
+            <select name="languages" id="lang">
+              <option value="javascript">JavaScript</option>
+              <option value="php">PHP</option>
+              <option value="java">Java</option>
+              <option value="golang">Golang</option>
+              <option value="python">Python</option>
+              <option value="c#">C#</option>
+              <option value="C++">C++</option>
+              <option value="erlang">Erlang</option>
+            </select>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <img src="https://thumbs.dreamstime.com/b/lots-groceries-17001094.jpg">
+  <script src="E-Groceries.js"></script>
+</body>
+
+</html>
