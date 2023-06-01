@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Revou Demo</title>
+    <style>
+        h2 {color: orange;}
+        h2.title {color: pink;}
+        p {color: black;}
+        .mobil {color: blue;}
+        #avanza {color: greenyellow}
+        .containerWithBox {
+            background-color: red;
+            width: 200px;
+            padding-left: 50px ;
+            border: 15px solid gold;
+            margin-top: 50px;
+            box-sizing: border-box;
+        }
+        .containerWithoutBox {
+            background-color: red;
+            width: 200px;
+            border: 15px solid gold;
+            margin-top: 50px;
+            box-sizing: border-box;
+        }
+        .flexBoxRow {
+            display: flex;
+            background-color: hotpink;
+            flex-direction: row;
+        }
+        .flexBoxColumn {
+            display: flex;
+            background-color: hotpink;
+            flex-direction: column;
+        }
+    </style>    
+</head>
+
+<body>
+    <h2>Halo</h2>
+    <h2 class="title">Dunia</h2>
+    <p>Hai</p>
+    <p class="mobil" id="avanza">Ini Avanza</p>
+    <p class="mobil" id="alya">Ini Alya</p>
+    <p class="containerWithBox">Revou</p>
+    <p class="containerWithoutBox">Revou</p>
+    <div class="flexBoxColumn">
+        <div class="flexBoxRow">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+        </div>
+        <div class="flexBoxRow">
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+        </div>
+    </div>
+</body>
+
+</html>
